@@ -31,7 +31,9 @@ public:
 
     void setAge(int age);
 
-};
+    virtual ~Person();
 
+
+};
 
 #endif //LAB_07_PERSON_H

@@ -32,4 +32,6 @@ void Person::setAge(int age) {
     Person::age = age;
 }
 
+Person::~Person() {}
+
 
