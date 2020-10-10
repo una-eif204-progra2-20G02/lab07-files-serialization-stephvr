@@ -7,18 +7,15 @@
 #include"Person.h"
 #include<vector>
 
-
 class PersonManager
 {
 
 private:
   vector<Person*> personList;
 
-
 public:
  void insertarPersona(Person *);
 
 };
-
 
 #endif //LAB_07_PERSONMANAGER_H
