@@ -32,6 +32,20 @@ void Person::setAge(int age) {
     Person::age = age;
 }
 
+string Person::toString()
+{
+    stringstream out;
+
+    out<<"Nombre: "<<name<<"\n";
+    out<<"Edad: "<<age<<"\n";
+    out<<"ID: "<<id<<"\n";
+    out.str();
+
+
+
+}
+
+
 Person::~Person() {}
 
 

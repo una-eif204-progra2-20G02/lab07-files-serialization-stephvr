@@ -3,3 +3,15 @@
 //
 
 #include "Serialization.h"
+
+void Serialization::serialize(Person *personList) {
+
+    //jsonPeople[]
+
+
+
+
+}
+
+void Serialization::deserialize(Person *personList) {}
+

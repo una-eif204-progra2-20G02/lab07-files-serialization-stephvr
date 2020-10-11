@@ -20,8 +20,7 @@ protected:
 
 public:
     void serialize(Person*personList);
-    //void deserialize()
-
+    void deserialize(Person*personList);
 
 
 };

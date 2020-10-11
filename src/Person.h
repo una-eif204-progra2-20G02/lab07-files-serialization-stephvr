@@ -6,6 +6,7 @@
 #define LAB_07_PERSON_H
 #include<string>
 #include<list>
+#include<sstream>
 
 using namespace std;
 class Person {
@@ -30,6 +31,8 @@ public:
     int getAge() const;
 
     void setAge(int age);
+
+    string toString();
 
     virtual ~Person();
 
